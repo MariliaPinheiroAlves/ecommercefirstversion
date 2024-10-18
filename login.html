@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zobina - Login</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span><a href="index.html">Zobina</a></span>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="carrinho.html">Collection</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="container">
+        <h1>Welcome back</h1>
+        <div class="div-login">
+            <div class="message hidden" id="message"></div>
+            <div class="email">
+                <input type="text" placeholder="Usuario" name="username" id="username" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="senha">
+                <input type="password" placeholder="Senha" name="senha" id="senha" required>
+                <i class="fas fa-eye" id="iconeExibirSenha"></i>
+            </div>
+            <div class="btn" id="loginBtn">
+                <button>Entrar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por <a href="#">Leandro Ribeiro</a>, <a href="#">Marília Pinheiro Alves</a> e <a href="#">Rayane
+                Santos.</a></p>
+    </footer>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

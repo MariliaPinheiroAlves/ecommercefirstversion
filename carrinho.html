@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zobina</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <!-- <link rel="stylesheet" href="./styles/produtos.css"> -->
+    <link rel="stylesheet" href="./styles/carrinho.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span><a href="index.html">Zobina</a></span>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li class="btn-carrinho"><a href="carrinho.html">Buy now</a><i class="fas fa-shopping-bag"></i></li>
+        </ul>
+    </nav>
+
+    <!-- <main class="container">
+        <h1>Cart</h1>
+        <div class="produtos-carrinho" id="produtos">
+             <div class="produto" id="divProduto">
+                <img src="" alt="Produto">
+                <div class="infos-do-produto">
+                    <div class="detalhes-produto">
+                        <h3 class="titulo-produto"></h3>
+                        <p class="preco-produto"></p>
+                    </div>
+                    <div class="detalhes-compra">
+                        <div class="quantidade">
+                            <button id="btnMenos">-</button>
+                            <p id="quantidade">01 un.</p>
+                            <button id="btnMais">+</button>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+
+         <div id="produtosCarrinho"></div>
+        <div id="carrinho">
+            <p>Subtotal: <span id="precoFinal"></span></p>
+            <p class="btn-carrinho">Buy</p>
+        </div>
+
+        </div>
+    </main> -->
+
+    <main class="container">
+        <h1>Cart</h1>
+        <div class="produtos-carrinho" id="produtos"></div>
+
+        <div id="carrinho">
+            <p>Subtotal: <span id="precoFinal">$0.00</span></p>
+            <p class="btn-carrinho">Buy</p>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>Desenvolvido por <a href="#">Leandro Ribeiro</a>, <a href="#">Marília Pinheiro Alves</a> e <a href="#">Rayane
+                Santos.</a></p>
+    </footer>
+    <script src="./js/carrinho.js"></script>
+</body>
+
+</html>

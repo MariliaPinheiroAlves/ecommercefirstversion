@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zobina</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/produtos.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span><a href="index.html">Zobina</a></span>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li class="btn-carrinho"><a href="carrinho.html">Buy now</a><i class="fas fa-shopping-bag"></i></li>
+        </ul>
+    </nav>
+
+    <section class="destaque">
+        <div class="destaque-texto">
+            <h1>Bold style every day</h1>
+            <p>Shop our latest collections for everyday wear and standout looks, tailored to fit your lifestyle.</p>
+        </div>
+        <div class="destaque-foto">
+            <img src="./images/unsplash-destaque.jpg" alt="Foto de roupa">
+        </div>
+    </section>
+
+    <main>
+        <h1>Collection</h1>
+        <section id="produtos">
+             <!-- <div class="produto">
+                <i class="fa fa-search"></i>
+                <div class="infos">
+                    <img src="./images/product1.jpg" alt="Produto">
+                    <h3 class="titulo-produto">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h3>
+                    <p class="preco-produto">$22.3</p>
+                </div>
+            </div>
+             <div class="produto">
+                <i class="fa fa-search"></i>
+                <div class="infos">
+                    <img src="./images/product2.jpg" alt="Produto">
+                    <h3 class="titulo-produto">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h3>
+                    <p class="preco-produto">$22.3</p>
+                </div>
+            </div> -->
+            <div class="card-detalhes hidden" id="cardDetalhes">
+                <div class="produto-detalhe">
+                    <i class="fas fa-times" id="fecharCard"></i>
+                    <img src="" alt="Produto">
+                    <div class="infos">
+                        <h3 class="titulo-produto"></h3>
+                        <p class="descricao-produto"></p>
+                        <p class="categoria-produto"></p>
+                        <p class="preco-produto"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por <a href="#">Leandro Ribeiro</a>, <a href="#">Marília Pinheiro Alves</a> e <a href="#">Rayane
+                Santos.</a></p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
