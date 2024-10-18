@@ -89,9 +89,9 @@ const renderizarCarrinho = () => {
     });
 };
 
-// Função para carregar o carrinho
 const loadCarrinho = async () => {
     try {
+        //por enquanto o acesso ao carrinho não está dinâmico
         const response = await fetch('https://fakestoreapi.com/carts/1');
         const produtos = await response.json();
 

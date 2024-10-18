@@ -12,7 +12,6 @@ const loadProdutos = async () => {
         const produtos = await response.json();
 
         const container = document.getElementById('produtos');
-        // container.innerHTML = '';
 
         produtos.forEach(produto => {
             const produtoDiv = document.createElement('div');
